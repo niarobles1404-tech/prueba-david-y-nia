@@ -1,1 +1,3 @@
 # Archivo para guardar los comandos de Git Bash
+
+# Actualizar el proyecto con los comandos que se deben usar en Git Bash
