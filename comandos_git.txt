@@ -1,3 +1,20 @@
-# Archivo para guardar los comandos de Git Bash
+# Comandos de git brash 
+cd .. # se devuelve
+cd nombre # ingresar 
+ls # ver archivos
+git add . # agregar cambios locales a git
+git commit -m "nombre_cambio" # agregar un nombre al cambio, se ve como un mensaje
+git push # enviar commits al git web 
+git clone "enlace_https" # clonar repositorio de otra persona a mi compu
+git pull # traer cambios de la otra persona a mi compu
+git status # muestra el estado actual del directorio de trabajo 
 
-# Actualizar el proyecto con los comandos que se deben usar en Git Bash
+# Ramas
+git branch # muestra ramas locales existentes 
+git branch -c nombre_rama # crea una nueva rama
+git switch nombre_rama # se mueve a esa rama
+git branch -d nombre_rama # elimina la rama
+git push origin main # sube la rama al main
+git checkout nombre_otra_rama # se cambia a otra rama 
+git switch main # se mueve al main
+git merge nombre_rama # fusiona los cambios de una rama a otra 
