@@ -6,7 +6,7 @@ git add . # agregar cambios locales a git
 git commit -m "nombre_cambio" # agregar un nombre al cambio, se ve como un mensaje
 git push # enviar commits al git web 
 git clone "enlace_https" # clonar repositorio de otra persona a mi compu
-git pull # traer cambios de la otra persona a mi compu
+git pull origin main # traer cambios de la otra persona a mi compu
 git status # muestra el estado actual del directorio de trabajo 
 
 # Ramas
